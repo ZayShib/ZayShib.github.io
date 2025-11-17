@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Zaidaan Shibuya - Portfolio
 
 A professional portfolio website showcasing my computer science skills, projects, and experiences. Hosted on GitHub Pages.

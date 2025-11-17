@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Zaidaan Shibuya - Portfolio
 
 A professional portfolio website showcasing my computer science skills, projects, and experiences. Hosted on GitHub Pages.
@@ -127,3 +128,8 @@ This project is open source
 
 **Last Updated**: January 2025
 
+=======
+# ZayShib.github.io
+
+Welcome to my personal Repo
+>>>>>>> df315bae148ceed13ed454c6f2a33c5f50eda52a

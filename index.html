@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaidaan Shibuya - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Zaidaan Shibuya</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-container">
+            <div class="home-content">
+                <h1 class="home-title">Zaidaan Shibuya</h1>
+                <p class="home-tagline">Computer Science Student | Full-Stack Developer</p>
+                <p class="home-description">
+                    Passionate about building innovative software solutions and exploring the intersection 
+                    of finance and technology. Currently pursuing a Bachelor of Science in Computer Science 
+                    at the University of Washington.
+                </p>
+                <div class="home-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="home-social">
+                    <a href="https://www.linkedin.com/in/zaidaanshibuya/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/ZayShib" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:zaidaanshibuya206@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Education & Background</h3>
+                    <p>
+                        I am a Computer Science student at the University of Washington, pursuing my Bachelor of Science 
+                        with a GPA of 3.43. My coursework includes Object-Oriented Programming, Discrete Math, Software 
+                        Development, Statistics, Matrix Algebra, and Data Structures and Algorithms.
+                    </p>
+                    <p>
+                        My interest in computer science stems from a passion for solving complex problems and building 
+                        applications that make a real-world impact. I'm particularly drawn to the intersection of finance 
+                        and technology, as evidenced by my work on the Black-Scholes Option Pricing Model project.
+                    </p>
+                    <h3>Career Goals</h3>
+                    <p>
+                        I aim to become a skilled full-stack developer with expertise in financial technology and 
+                        quantitative computing. My goal is to work on innovative projects that combine software engineering 
+                        with financial modeling and data analysis.
+                    </p>
+                    <h3>Extracurricular Involvement</h3>
+                    <p>
+                        As an active member and officer of UW Tacoma GitHired, I collaborate with peers on projects and 
+                        participate in hackathons focused on data-driven web applications. This involvement has helped me 
+                        develop both technical skills and teamwork abilities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">This section is a Work in Progress (WIP) - updating every quarter</p>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Black-Scholes Option Pricing Model</h3>
+                        <span class="project-date">October 2025 – Present</span>
+                    </div>
+                    <p class="project-description">
+                        Engineered a Python-based option pricing engine using the Black–Scholes PDE and stochastic models. 
+                        Implemented Monte Carlo and finite-difference methods for derivative pricing simulations. 
+                        Integrated Schwab API for real-time market data ingestion and automated volatility calibration. 
+                        Automated generation of daily analytical reports using LaTeX and Supabase for persistence.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">LaTeX</span>
+                        <span class="tech-tag">Schwab API</span>
+                        <span class="tech-tag">Supabase</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Flask</span>
+                    </div>
+                    <div class="project-challenges">
+                        <h4>Key Learnings:</h4>
+                        <ul>
+                            <li>Advanced financial modeling and quantitative analysis</li>
+                            <li>Integration of real-time market data APIs</li>
+                            <li>Monte Carlo simulation techniques</li>
+                            <li>Automated report generation with LaTeX</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Rental Portal</h3>
+                        <span class="project-date">April 2025 – July 2025</span>
+                    </div>
+                    <p class="project-description">
+                        Built a full-stack rental management platform using Flask and React with role-based access control. 
+                        Implemented secure authentication with Firebase Auth and JWT plus integrated rent tracking. 
+                        Optimized PostgreSQL queries and containerized the backend for scalable, efficient performance.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Stripe API</span>
+                        <span class="tech-tag">Firebase Auth</span>
+                    </div>
+                    <div class="project-challenges">
+                        <h4>Key Learnings:</h4>
+                        <ul>
+                            <li>Full-stack development with Flask and React</li>
+                            <li>Role-based access control implementation</li>
+                            <li>Database optimization and query performance</li>
+                            <li>Payment integration with Stripe</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Restaurant Ordering System</h3>
+                        <span class="project-date">May 2024 – August 2024</span>
+                    </div>
+                    <p class="project-description">
+                        Developed a responsive restaurant ordering site with Square and Toast APIs for real-time payments. 
+                        Used MongoDB for efficient data storage and retrieval of customer orders and transaction history. 
+                        Automated version control and deployment workflows using Git for faster updates and reduced downtime.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Square API</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Git</span>
+                    </div>
+                    <div class="project-challenges">
+                        <h4>Key Learnings:</h4>
+                        <ul>
+                            <li>Third-party API integration (Square, Toast)</li>
+                            <li>NoSQL database design with MongoDB</li>
+                            <li>Responsive web design principles</li>
+                            <li>CI/CD pipeline implementation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skills-list">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">C/C++</span>
+                        <span class="skill-item">Bash</span>
+                        <span class="skill-item">R</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks & Libraries</h3>
+                    <div class="skills-list">
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Flask</span>
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Express</span>
+                        <span class="skill-item">Tailwind</span>
+                        <span class="skill-item">JUnit</span>
+                        <span class="skill-item">Pytest</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-tools"></i> Developer Tools</h3>
+                    <div class="skills-list">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">GitHub</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">Firebase</span>
+                        <span class="skill-item">VS Code</span>
+                        <span class="skill-item">IntelliJ</span>
+                        <span class="skill-item">Ubuntu</span>
+                        <span class="skill-item">LaTeX</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & Deployment</h3>
+                    <div class="skills-list">
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Google Cloud</span>
+                        <span class="skill-item">Supabase</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-plug"></i> APIs & Integrations</h3>
+                    <div class="skills-list">
+                        <span class="skill-item">REST</span>
+                        <span class="skill-item">GraphQL</span>
+                        <span class="skill-item">Stripe</span>
+                        <span class="skill-item">Square</span>
+                        <span class="skill-item">Toast</span>
+                        <span class="skill-item">Schwab API</span>
+                        <span class="skill-item">Doordash/Uber/Grubhub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-timeline">
+                <!-- Experience 1 -->
+                <div class="experience-item">
+                    <div class="experience-date">Jan 2024</div>
+                    <div class="experience-content">
+                        <h3>Full-Stack Developer</h3>
+                        <h4>Alaba LLC | Seattle, WA</h4>
+                        <ul>
+                            <li>Built a full-stack rental management system using Flask, React, and Firebase with role-based user access.</li>
+                            <li>Integrated real-time database sync and automated workflows to streamline rent payments and requests.</li>
+                            <li>Implemented secure authentication and authorization (JWT + Firebase Auth) to improve reliability.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="experience-item">
+                    <div class="experience-date">May 2024</div>
+                    <div class="experience-content">
+                        <h3>Full-Stack Developer</h3>
+                        <h4>Fryzone | Seattle, WA</h4>
+                        <ul>
+                            <li>Developed and deployed a responsive restaurant ordering platform integrating Square and Toast APIs.</li>
+                            <li>Designed RESTful endpoints and order tracking dashboards with live status updates for administrators.</li>
+                            <li>Utilized MongoDB for scalable data storage and implemented CI/CD pipelines with Git for deployment.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <p>Download my resume to view my complete professional background and qualifications.</p>
+                <a href="resume.pdf" class="btn btn-primary" target="_blank">
+                    <i class="fas fa-download"></i> Download Resume (PDF)
+                </a>
+                <p class="resume-note">
+                    <small>Note: Please add your resume.pdf file to the repository root directory.</small>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always open to discussing new opportunities, interesting projects, or just connecting!</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:zaidaanshibuya206@gmail.com">zaidaanshibuya206@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:206-694-9177">206-694-9177</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/zaidaanshibuya/" target="_blank">LinkedIn Profile</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/ZayShib" target="_blank">GitHub Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Zaidaan Shibuya. All rights reserved.</p>
+            <p>Built with HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
